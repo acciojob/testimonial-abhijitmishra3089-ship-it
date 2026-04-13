@@ -4,18 +4,13 @@
 	padding:0;
 	box-sizing:border-box
 }
-.container{
-	height:300px;
-	width:650px;
-	display:grid;
-    padding:30px 30px;
-	background-color:#f5f5f5;
-}
 .testimonial{
-	height:140px;
-	width:600px;
 	display:grid;
 	grid-template-rows:repeat(2,1fr);
+	height:300px;
+	width:650px;
+    padding:30px 30px;
+	background-color:#f5f5f5;
 }
 .text{
 	border:2px solid gray;
